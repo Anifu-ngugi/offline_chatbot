@@ -3,3 +3,4 @@ chromadb
 sentence-transformers
 streamlit
 pymupdf
+pysqlite3-binary
