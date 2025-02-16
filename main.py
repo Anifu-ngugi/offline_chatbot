@@ -59,7 +59,7 @@ def get_vector_collection() -> chromadb.Collection:
     """Gets or creates a ChromaDB collection for vector storage."""
     embedding_function = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
 
-    chroma_client = chromadb.PersistentClient(path="./demo-rag-chroma2")
+    chroma_client = chromadb.PersistentClient(path="./demo-rag-chroma1")
     return chroma_client.get_or_create_collection(
         name="rag_app",
         embedding_function=embedding_function,
