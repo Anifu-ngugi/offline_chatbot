@@ -2,7 +2,7 @@ import os
 import tempfile
 import chromadb
 import ollama
-import pysqlite3 as sqlite3
+import pysqlite3 as sqlite3 #maked changes
 import streamlit as st
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 from langchain_community.document_loaders import PyMuPDFLoader
